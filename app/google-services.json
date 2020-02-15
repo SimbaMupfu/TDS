@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "874938267083",
+    "firebase_url": "https://tds-a2744.firebaseio.com",
+    "project_id": "tds-a2744",
+    "storage_bucket": "tds-a2744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874938267083:android:56f0791d4eb233ab",
+        "android_client_info": {
+          "package_name": "hustle.sims.inc.tds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874938267083-11dbseimal7nnslatb15kfbf930vqid3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVRw0ub3TgPXfuhMsGNa5-vW5ufCtuSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874938267083-11dbseimal7nnslatb15kfbf930vqid3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

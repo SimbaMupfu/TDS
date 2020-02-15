@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backdesign"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TDS APP"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_design"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email:"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_design"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:hint="Password:"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_design"
+            android:text="Sign in"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="OR"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/signupbutton"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
